@@ -10,10 +10,38 @@
 */
 
 
-#include<stdio.h>
+#include <stdio.h>
+#include <stdbool.h>  
 int main()
 {
+
+    
+    char name[] = "Srija";
+   
     int age = 18;
-    printf("Age: %d",age);
+    
+    bool isPass = true;
+
+    float cgpa = 8.5f;
+
+    double CGPA = 8.56789;
+   
+    char grade = 'A';
+    
+    
+    printf("Name: %s\n",name);
+
+    printf("Age: %d\n",age);
+
+    printf("pass: %d\n",isPass);
+
+    printf("cgpa: %f\n",cgpa);
+    
+    printf("cgpa: %lf\n",CGPA);
+
+    printf("Grade: % c\n",grade); 
+
+    
+
     return 0;
 }
